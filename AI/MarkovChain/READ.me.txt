@@ -1,0 +1,27 @@
+MARKOV CHAIN MODELÝ
+
+Bu Python projesi, Markov Zinciri modelini kullanarak kripto para birimi fiyatlarýnýn bir hafta sonrasý için tahmin edilmesini saðlar.
+
+Kullaným
+
+Gereksinimlerin Yüklenmesi:
+
+Projeyi çalýþtýrmak için Python 3 ve gerekli kütüphanelerin yüklü olmasý gerekir. Gerekli kütüphaneleri yüklemek için terminal veya komut istemcisinde aþaðýdaki komutu çalýþtýrýn:
+pip install numpy pandas
+
+Veri Hazýrlýðý:
+
+Projeyi çalýþtýrmak için öncelikle kripto para birimi fiyatlarýna iliþkin bir veri setine ihtiyacýnýz olacak. Proje ile birlikte paylaþmýþ olduðum ETC-USD.csv dosyasýný direkt olarak kullanabilirsiniz. Ancak farklý bir veri setinde iþlem gerçekleþtirmek için o ve dosyayý ETC-USD.csv adýyla projenin kök dizinine yerleþtirin ya da kod üzerinde veri okunan satýrda yeni veri seti adýnýzý girin.
+
+Projeyi Çalýþtýrma
+
+Terminal veya komut istemcisinde projenin bulunduðu dizine gidin ve aþaðýdaki komutu çalýþtýrýn:
+python markovChainModel.py
+
+Tarih Giriþi
+
+Program size bir bitiþ tarihi giriþi isteyecektir (YYYY-MM-DD formatýnda). Bu, analizde kullanýlacak veri aralýðýnýn son tarihini belirlemenizi saðlar.
+
+Tahmin Sonuçlarý
+
+Program, bir hafta sonrasý için fiyat azalma, deðiþmezlik ve artýþ olasýlýklarýný tahmin eder ve bu sonuçlarý ekrana yazdýrýr.
